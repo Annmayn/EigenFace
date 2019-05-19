@@ -101,10 +101,10 @@ class EigenFace:
         Returns
         --------
             X : numpy n-d array, string
-                image paths
+                Image paths
             
             y : numpy n-d array, string
-                output associated with the image path
+                Output associated with the image path
         """
         
         if label_df is None:
@@ -114,6 +114,21 @@ class EigenFace:
         return X,y
 
     def trainModel(self, X, y, num_of_eigen):
+        """
+        Trains the model using EigenFace
+        
+        Parameters
+        --------
+            X : list, string
+                Array of strings consisting of image path.
+                
+            y : list, string
+                Output associated with image corresponding to X.
+                
+            num_of_eigen : int
+                Number of eigen vectors to use when building model.
+        """
+        
         self.y_train = y
         all_image = np.zeros((X.shape[0], self.image_x*self.image_y))
 
@@ -148,6 +163,17 @@ class EigenFace:
             self.weights = np.dot(self.eigen_vector.T, adjusted_face.T)
 
     def saveModel(self, label_df=None):
+        """
+        Saves the current model in the 'root_dir'.
+        
+        Parameters
+        --------
+            label_df : pandas.DataFrame, optional
+                 If provided, saves the pandas DataFrame consisting 
+                 of the image paths and corresponding output, alongside 
+                 the model.
+        """
+
         joblib.dump(self.eigen_vector, self.eigen_vector_path)
         joblib.dump(self.avg_face, self.average_face_path)
         joblib.dump(self.weights, self.trained_weight_path)
@@ -156,6 +182,10 @@ class EigenFace:
             f.write(label_df.to_csv())
 
     def loadModel(self):
+        """
+        Loads the saved model
+        """
+
         self.eigen_vector = joblib.load(self.eigen_vector_path)
         self.avg_face = joblib.load(self.average_face_path)
         self.weights = joblib.load(self.trained_weight_path)
@@ -168,6 +198,31 @@ class EigenFace:
             self.loadModel()
 
     def predict(self,X,y,threshold=3e14,n_neighbors=1):
+        """
+        Makes prediction for provided test images.
+
+        Parameters
+        --------
+            X : list, string
+                List of string that contain path to the image.
+            
+            y : list, string
+                List of string that contains name of user associated 
+                with the image represented by X.
+
+            threshold : float, default=3e14
+                Defines the threshold beyond which the prediction will be discarded
+
+            n_neighbors : integer, default=1
+                Defines the number of neighbors to consider during prediction. 
+                Uses KNN algorithm for n>1. 
+
+        Note
+        --------
+            Use n_neighbors only when there are a lot of images of a single user
+            in the training set.
+        """
+
         y_pred = []
         y_act = []
         y_comp = []
