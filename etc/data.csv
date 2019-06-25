@@ -1,401 +1,399 @@
-,0,1
-0,E:/Machine Learning/Datasets/orl_faces original\s1\1.pgm,s1
-0,E:/Machine Learning/Datasets/orl_faces original\s1\10.pgm,s1
-0,E:/Machine Learning/Datasets/orl_faces original\s1\2.pgm,s1
-0,E:/Machine Learning/Datasets/orl_faces original\s1\3.pgm,s1
-0,E:/Machine Learning/Datasets/orl_faces original\s1\4.pgm,s1
-0,E:/Machine Learning/Datasets/orl_faces original\s1\5.pgm,s1
-0,E:/Machine Learning/Datasets/orl_faces original\s1\6.pgm,s1
-0,E:/Machine Learning/Datasets/orl_faces original\s1\7.pgm,s1
-0,E:/Machine Learning/Datasets/orl_faces original\s1\8.pgm,s1
-0,E:/Machine Learning/Datasets/orl_faces original\s1\9.pgm,s1
-0,E:/Machine Learning/Datasets/orl_faces original\s10\1.pgm,s10
-0,E:/Machine Learning/Datasets/orl_faces original\s10\10.pgm,s10
-0,E:/Machine Learning/Datasets/orl_faces original\s10\2.pgm,s10
-0,E:/Machine Learning/Datasets/orl_faces original\s10\3.pgm,s10
-0,E:/Machine Learning/Datasets/orl_faces original\s10\4.pgm,s10
-0,E:/Machine Learning/Datasets/orl_faces original\s10\5.pgm,s10
-0,E:/Machine Learning/Datasets/orl_faces original\s10\6.pgm,s10
-0,E:/Machine Learning/Datasets/orl_faces original\s10\7.pgm,s10
-0,E:/Machine Learning/Datasets/orl_faces original\s10\8.pgm,s10
-0,E:/Machine Learning/Datasets/orl_faces original\s10\9.pgm,s10
-0,E:/Machine Learning/Datasets/orl_faces original\s11\1.pgm,s11
-0,E:/Machine Learning/Datasets/orl_faces original\s11\10.pgm,s11
-0,E:/Machine Learning/Datasets/orl_faces original\s11\2.pgm,s11
-0,E:/Machine Learning/Datasets/orl_faces original\s11\3.pgm,s11
-0,E:/Machine Learning/Datasets/orl_faces original\s11\4.pgm,s11
-0,E:/Machine Learning/Datasets/orl_faces original\s11\5.pgm,s11
-0,E:/Machine Learning/Datasets/orl_faces original\s11\6.pgm,s11
-0,E:/Machine Learning/Datasets/orl_faces original\s11\7.pgm,s11
-0,E:/Machine Learning/Datasets/orl_faces original\s11\8.pgm,s11
-0,E:/Machine Learning/Datasets/orl_faces original\s11\9.pgm,s11
-0,E:/Machine Learning/Datasets/orl_faces original\s12\1.pgm,s12
-0,E:/Machine Learning/Datasets/orl_faces original\s12\10.pgm,s12
-0,E:/Machine Learning/Datasets/orl_faces original\s12\2.pgm,s12
-0,E:/Machine Learning/Datasets/orl_faces original\s12\3.pgm,s12
-0,E:/Machine Learning/Datasets/orl_faces original\s12\4.pgm,s12
-0,E:/Machine Learning/Datasets/orl_faces original\s12\5.pgm,s12
-0,E:/Machine Learning/Datasets/orl_faces original\s12\6.pgm,s12
-0,E:/Machine Learning/Datasets/orl_faces original\s12\7.pgm,s12
-0,E:/Machine Learning/Datasets/orl_faces original\s12\8.pgm,s12
-0,E:/Machine Learning/Datasets/orl_faces original\s12\9.pgm,s12
-0,E:/Machine Learning/Datasets/orl_faces original\s13\1.pgm,s13
-0,E:/Machine Learning/Datasets/orl_faces original\s13\10.pgm,s13
-0,E:/Machine Learning/Datasets/orl_faces original\s13\2.pgm,s13
-0,E:/Machine Learning/Datasets/orl_faces original\s13\3.pgm,s13
-0,E:/Machine Learning/Datasets/orl_faces original\s13\4.pgm,s13
-0,E:/Machine Learning/Datasets/orl_faces original\s13\5.pgm,s13
-0,E:/Machine Learning/Datasets/orl_faces original\s13\6.pgm,s13
-0,E:/Machine Learning/Datasets/orl_faces original\s13\7.pgm,s13
-0,E:/Machine Learning/Datasets/orl_faces original\s13\8.pgm,s13
-0,E:/Machine Learning/Datasets/orl_faces original\s13\9.pgm,s13
-0,E:/Machine Learning/Datasets/orl_faces original\s14\1.pgm,s14
-0,E:/Machine Learning/Datasets/orl_faces original\s14\10.pgm,s14
-0,E:/Machine Learning/Datasets/orl_faces original\s14\2.pgm,s14
-0,E:/Machine Learning/Datasets/orl_faces original\s14\3.pgm,s14
-0,E:/Machine Learning/Datasets/orl_faces original\s14\4.pgm,s14
-0,E:/Machine Learning/Datasets/orl_faces original\s14\5.pgm,s14
-0,E:/Machine Learning/Datasets/orl_faces original\s14\6.pgm,s14
-0,E:/Machine Learning/Datasets/orl_faces original\s14\7.pgm,s14
-0,E:/Machine Learning/Datasets/orl_faces original\s14\8.pgm,s14
-0,E:/Machine Learning/Datasets/orl_faces original\s14\9.pgm,s14
-0,E:/Machine Learning/Datasets/orl_faces original\s15\1.pgm,s15
-0,E:/Machine Learning/Datasets/orl_faces original\s15\10.pgm,s15
-0,E:/Machine Learning/Datasets/orl_faces original\s15\2.pgm,s15
-0,E:/Machine Learning/Datasets/orl_faces original\s15\3.pgm,s15
-0,E:/Machine Learning/Datasets/orl_faces original\s15\4.pgm,s15
-0,E:/Machine Learning/Datasets/orl_faces original\s15\5.pgm,s15
-0,E:/Machine Learning/Datasets/orl_faces original\s15\6.pgm,s15
-0,E:/Machine Learning/Datasets/orl_faces original\s15\7.pgm,s15
-0,E:/Machine Learning/Datasets/orl_faces original\s15\8.pgm,s15
-0,E:/Machine Learning/Datasets/orl_faces original\s15\9.pgm,s15
-0,E:/Machine Learning/Datasets/orl_faces original\s16\1.pgm,s16
-0,E:/Machine Learning/Datasets/orl_faces original\s16\10.pgm,s16
-0,E:/Machine Learning/Datasets/orl_faces original\s16\2.pgm,s16
-0,E:/Machine Learning/Datasets/orl_faces original\s16\3.pgm,s16
-0,E:/Machine Learning/Datasets/orl_faces original\s16\4.pgm,s16
-0,E:/Machine Learning/Datasets/orl_faces original\s16\5.pgm,s16
-0,E:/Machine Learning/Datasets/orl_faces original\s16\6.pgm,s16
-0,E:/Machine Learning/Datasets/orl_faces original\s16\7.pgm,s16
-0,E:/Machine Learning/Datasets/orl_faces original\s16\8.pgm,s16
-0,E:/Machine Learning/Datasets/orl_faces original\s16\9.pgm,s16
-0,E:/Machine Learning/Datasets/orl_faces original\s17\1.pgm,s17
-0,E:/Machine Learning/Datasets/orl_faces original\s17\10.pgm,s17
-0,E:/Machine Learning/Datasets/orl_faces original\s17\2.pgm,s17
-0,E:/Machine Learning/Datasets/orl_faces original\s17\3.pgm,s17
-0,E:/Machine Learning/Datasets/orl_faces original\s17\4.pgm,s17
-0,E:/Machine Learning/Datasets/orl_faces original\s17\5.pgm,s17
-0,E:/Machine Learning/Datasets/orl_faces original\s17\6.pgm,s17
-0,E:/Machine Learning/Datasets/orl_faces original\s17\7.pgm,s17
-0,E:/Machine Learning/Datasets/orl_faces original\s17\8.pgm,s17
-0,E:/Machine Learning/Datasets/orl_faces original\s17\9.pgm,s17
-0,E:/Machine Learning/Datasets/orl_faces original\s18\1.pgm,s18
-0,E:/Machine Learning/Datasets/orl_faces original\s18\10.pgm,s18
-0,E:/Machine Learning/Datasets/orl_faces original\s18\2.pgm,s18
-0,E:/Machine Learning/Datasets/orl_faces original\s18\3.pgm,s18
-0,E:/Machine Learning/Datasets/orl_faces original\s18\4.pgm,s18
-0,E:/Machine Learning/Datasets/orl_faces original\s18\5.pgm,s18
-0,E:/Machine Learning/Datasets/orl_faces original\s18\6.pgm,s18
-0,E:/Machine Learning/Datasets/orl_faces original\s18\7.pgm,s18
-0,E:/Machine Learning/Datasets/orl_faces original\s18\8.pgm,s18
-0,E:/Machine Learning/Datasets/orl_faces original\s18\9.pgm,s18
-0,E:/Machine Learning/Datasets/orl_faces original\s19\1.pgm,s19
-0,E:/Machine Learning/Datasets/orl_faces original\s19\10.pgm,s19
-0,E:/Machine Learning/Datasets/orl_faces original\s19\2.pgm,s19
-0,E:/Machine Learning/Datasets/orl_faces original\s19\3.pgm,s19
-0,E:/Machine Learning/Datasets/orl_faces original\s19\4.pgm,s19
-0,E:/Machine Learning/Datasets/orl_faces original\s19\5.pgm,s19
-0,E:/Machine Learning/Datasets/orl_faces original\s19\6.pgm,s19
-0,E:/Machine Learning/Datasets/orl_faces original\s19\7.pgm,s19
-0,E:/Machine Learning/Datasets/orl_faces original\s19\8.pgm,s19
-0,E:/Machine Learning/Datasets/orl_faces original\s19\9.pgm,s19
-0,E:/Machine Learning/Datasets/orl_faces original\s2\1.pgm,s2
-0,E:/Machine Learning/Datasets/orl_faces original\s2\10.pgm,s2
-0,E:/Machine Learning/Datasets/orl_faces original\s2\2.pgm,s2
-0,E:/Machine Learning/Datasets/orl_faces original\s2\3.pgm,s2
-0,E:/Machine Learning/Datasets/orl_faces original\s2\4.pgm,s2
-0,E:/Machine Learning/Datasets/orl_faces original\s2\5.pgm,s2
-0,E:/Machine Learning/Datasets/orl_faces original\s2\6.pgm,s2
-0,E:/Machine Learning/Datasets/orl_faces original\s2\7.pgm,s2
-0,E:/Machine Learning/Datasets/orl_faces original\s2\8.pgm,s2
-0,E:/Machine Learning/Datasets/orl_faces original\s2\9.pgm,s2
-0,E:/Machine Learning/Datasets/orl_faces original\s20\1.pgm,s20
-0,E:/Machine Learning/Datasets/orl_faces original\s20\10.pgm,s20
-0,E:/Machine Learning/Datasets/orl_faces original\s20\2.pgm,s20
-0,E:/Machine Learning/Datasets/orl_faces original\s20\3.pgm,s20
-0,E:/Machine Learning/Datasets/orl_faces original\s20\4.pgm,s20
-0,E:/Machine Learning/Datasets/orl_faces original\s20\5.pgm,s20
-0,E:/Machine Learning/Datasets/orl_faces original\s20\6.pgm,s20
-0,E:/Machine Learning/Datasets/orl_faces original\s20\7.pgm,s20
-0,E:/Machine Learning/Datasets/orl_faces original\s20\8.pgm,s20
-0,E:/Machine Learning/Datasets/orl_faces original\s20\9.pgm,s20
-0,E:/Machine Learning/Datasets/orl_faces original\s21\1.pgm,s21
-0,E:/Machine Learning/Datasets/orl_faces original\s21\10.pgm,s21
-0,E:/Machine Learning/Datasets/orl_faces original\s21\2.pgm,s21
-0,E:/Machine Learning/Datasets/orl_faces original\s21\3.pgm,s21
-0,E:/Machine Learning/Datasets/orl_faces original\s21\4.pgm,s21
-0,E:/Machine Learning/Datasets/orl_faces original\s21\5.pgm,s21
-0,E:/Machine Learning/Datasets/orl_faces original\s21\6.pgm,s21
-0,E:/Machine Learning/Datasets/orl_faces original\s21\7.pgm,s21
-0,E:/Machine Learning/Datasets/orl_faces original\s21\8.pgm,s21
-0,E:/Machine Learning/Datasets/orl_faces original\s21\9.pgm,s21
-0,E:/Machine Learning/Datasets/orl_faces original\s22\1.pgm,s22
-0,E:/Machine Learning/Datasets/orl_faces original\s22\10.pgm,s22
-0,E:/Machine Learning/Datasets/orl_faces original\s22\2.pgm,s22
-0,E:/Machine Learning/Datasets/orl_faces original\s22\3.pgm,s22
-0,E:/Machine Learning/Datasets/orl_faces original\s22\4.pgm,s22
-0,E:/Machine Learning/Datasets/orl_faces original\s22\5.pgm,s22
-0,E:/Machine Learning/Datasets/orl_faces original\s22\6.pgm,s22
-0,E:/Machine Learning/Datasets/orl_faces original\s22\7.pgm,s22
-0,E:/Machine Learning/Datasets/orl_faces original\s22\8.pgm,s22
-0,E:/Machine Learning/Datasets/orl_faces original\s22\9.pgm,s22
-0,E:/Machine Learning/Datasets/orl_faces original\s23\1.pgm,s23
-0,E:/Machine Learning/Datasets/orl_faces original\s23\10.pgm,s23
-0,E:/Machine Learning/Datasets/orl_faces original\s23\2.pgm,s23
-0,E:/Machine Learning/Datasets/orl_faces original\s23\3.pgm,s23
-0,E:/Machine Learning/Datasets/orl_faces original\s23\4.pgm,s23
-0,E:/Machine Learning/Datasets/orl_faces original\s23\5.pgm,s23
-0,E:/Machine Learning/Datasets/orl_faces original\s23\6.pgm,s23
-0,E:/Machine Learning/Datasets/orl_faces original\s23\7.pgm,s23
-0,E:/Machine Learning/Datasets/orl_faces original\s23\8.pgm,s23
-0,E:/Machine Learning/Datasets/orl_faces original\s23\9.pgm,s23
-0,E:/Machine Learning/Datasets/orl_faces original\s24\1.pgm,s24
-0,E:/Machine Learning/Datasets/orl_faces original\s24\10.pgm,s24
-0,E:/Machine Learning/Datasets/orl_faces original\s24\2.pgm,s24
-0,E:/Machine Learning/Datasets/orl_faces original\s24\3.pgm,s24
-0,E:/Machine Learning/Datasets/orl_faces original\s24\4.pgm,s24
-0,E:/Machine Learning/Datasets/orl_faces original\s24\5.pgm,s24
-0,E:/Machine Learning/Datasets/orl_faces original\s24\6.pgm,s24
-0,E:/Machine Learning/Datasets/orl_faces original\s24\7.pgm,s24
-0,E:/Machine Learning/Datasets/orl_faces original\s24\8.pgm,s24
-0,E:/Machine Learning/Datasets/orl_faces original\s24\9.pgm,s24
-0,E:/Machine Learning/Datasets/orl_faces original\s25\1.pgm,s25
-0,E:/Machine Learning/Datasets/orl_faces original\s25\10.pgm,s25
-0,E:/Machine Learning/Datasets/orl_faces original\s25\2.pgm,s25
-0,E:/Machine Learning/Datasets/orl_faces original\s25\3.pgm,s25
-0,E:/Machine Learning/Datasets/orl_faces original\s25\4.pgm,s25
-0,E:/Machine Learning/Datasets/orl_faces original\s25\5.pgm,s25
-0,E:/Machine Learning/Datasets/orl_faces original\s25\6.pgm,s25
-0,E:/Machine Learning/Datasets/orl_faces original\s25\7.pgm,s25
-0,E:/Machine Learning/Datasets/orl_faces original\s25\8.pgm,s25
-0,E:/Machine Learning/Datasets/orl_faces original\s25\9.pgm,s25
-0,E:/Machine Learning/Datasets/orl_faces original\s26\1.pgm,s26
-0,E:/Machine Learning/Datasets/orl_faces original\s26\10.pgm,s26
-0,E:/Machine Learning/Datasets/orl_faces original\s26\2.pgm,s26
-0,E:/Machine Learning/Datasets/orl_faces original\s26\3.pgm,s26
-0,E:/Machine Learning/Datasets/orl_faces original\s26\4.pgm,s26
-0,E:/Machine Learning/Datasets/orl_faces original\s26\5.pgm,s26
-0,E:/Machine Learning/Datasets/orl_faces original\s26\6.pgm,s26
-0,E:/Machine Learning/Datasets/orl_faces original\s26\7.pgm,s26
-0,E:/Machine Learning/Datasets/orl_faces original\s26\8.pgm,s26
-0,E:/Machine Learning/Datasets/orl_faces original\s26\9.pgm,s26
-0,E:/Machine Learning/Datasets/orl_faces original\s27\1.pgm,s27
-0,E:/Machine Learning/Datasets/orl_faces original\s27\10.pgm,s27
-0,E:/Machine Learning/Datasets/orl_faces original\s27\2.pgm,s27
-0,E:/Machine Learning/Datasets/orl_faces original\s27\3.pgm,s27
-0,E:/Machine Learning/Datasets/orl_faces original\s27\4.pgm,s27
-0,E:/Machine Learning/Datasets/orl_faces original\s27\5.pgm,s27
-0,E:/Machine Learning/Datasets/orl_faces original\s27\6.pgm,s27
-0,E:/Machine Learning/Datasets/orl_faces original\s27\7.pgm,s27
-0,E:/Machine Learning/Datasets/orl_faces original\s27\8.pgm,s27
-0,E:/Machine Learning/Datasets/orl_faces original\s27\9.pgm,s27
-0,E:/Machine Learning/Datasets/orl_faces original\s28\1.pgm,s28
-0,E:/Machine Learning/Datasets/orl_faces original\s28\10.pgm,s28
-0,E:/Machine Learning/Datasets/orl_faces original\s28\2.pgm,s28
-0,E:/Machine Learning/Datasets/orl_faces original\s28\3.pgm,s28
-0,E:/Machine Learning/Datasets/orl_faces original\s28\4.pgm,s28
-0,E:/Machine Learning/Datasets/orl_faces original\s28\5.pgm,s28
-0,E:/Machine Learning/Datasets/orl_faces original\s28\6.pgm,s28
-0,E:/Machine Learning/Datasets/orl_faces original\s28\7.pgm,s28
-0,E:/Machine Learning/Datasets/orl_faces original\s28\8.pgm,s28
-0,E:/Machine Learning/Datasets/orl_faces original\s28\9.pgm,s28
-0,E:/Machine Learning/Datasets/orl_faces original\s29\1.pgm,s29
-0,E:/Machine Learning/Datasets/orl_faces original\s29\10.pgm,s29
-0,E:/Machine Learning/Datasets/orl_faces original\s29\2.pgm,s29
-0,E:/Machine Learning/Datasets/orl_faces original\s29\3.pgm,s29
-0,E:/Machine Learning/Datasets/orl_faces original\s29\4.pgm,s29
-0,E:/Machine Learning/Datasets/orl_faces original\s29\5.pgm,s29
-0,E:/Machine Learning/Datasets/orl_faces original\s29\6.pgm,s29
-0,E:/Machine Learning/Datasets/orl_faces original\s29\7.pgm,s29
-0,E:/Machine Learning/Datasets/orl_faces original\s29\8.pgm,s29
-0,E:/Machine Learning/Datasets/orl_faces original\s29\9.pgm,s29
-0,E:/Machine Learning/Datasets/orl_faces original\s3\1.pgm,s3
-0,E:/Machine Learning/Datasets/orl_faces original\s3\10.pgm,s3
-0,E:/Machine Learning/Datasets/orl_faces original\s3\2.pgm,s3
-0,E:/Machine Learning/Datasets/orl_faces original\s3\3.pgm,s3
-0,E:/Machine Learning/Datasets/orl_faces original\s3\4.pgm,s3
-0,E:/Machine Learning/Datasets/orl_faces original\s3\5.pgm,s3
-0,E:/Machine Learning/Datasets/orl_faces original\s3\6.pgm,s3
-0,E:/Machine Learning/Datasets/orl_faces original\s3\7.pgm,s3
-0,E:/Machine Learning/Datasets/orl_faces original\s3\8.pgm,s3
-0,E:/Machine Learning/Datasets/orl_faces original\s3\9.pgm,s3
-0,E:/Machine Learning/Datasets/orl_faces original\s30\1.pgm,s30
-0,E:/Machine Learning/Datasets/orl_faces original\s30\10.pgm,s30
-0,E:/Machine Learning/Datasets/orl_faces original\s30\2.pgm,s30
-0,E:/Machine Learning/Datasets/orl_faces original\s30\3.pgm,s30
-0,E:/Machine Learning/Datasets/orl_faces original\s30\4.pgm,s30
-0,E:/Machine Learning/Datasets/orl_faces original\s30\5.pgm,s30
-0,E:/Machine Learning/Datasets/orl_faces original\s30\6.pgm,s30
-0,E:/Machine Learning/Datasets/orl_faces original\s30\7.pgm,s30
-0,E:/Machine Learning/Datasets/orl_faces original\s30\8.pgm,s30
-0,E:/Machine Learning/Datasets/orl_faces original\s30\9.pgm,s30
-0,E:/Machine Learning/Datasets/orl_faces original\s31\1.pgm,s31
-0,E:/Machine Learning/Datasets/orl_faces original\s31\10.pgm,s31
-0,E:/Machine Learning/Datasets/orl_faces original\s31\2.pgm,s31
-0,E:/Machine Learning/Datasets/orl_faces original\s31\3.pgm,s31
-0,E:/Machine Learning/Datasets/orl_faces original\s31\4.pgm,s31
-0,E:/Machine Learning/Datasets/orl_faces original\s31\5.pgm,s31
-0,E:/Machine Learning/Datasets/orl_faces original\s31\6.pgm,s31
-0,E:/Machine Learning/Datasets/orl_faces original\s31\7.pgm,s31
-0,E:/Machine Learning/Datasets/orl_faces original\s31\8.pgm,s31
-0,E:/Machine Learning/Datasets/orl_faces original\s31\9.pgm,s31
-0,E:/Machine Learning/Datasets/orl_faces original\s32\1.pgm,s32
-0,E:/Machine Learning/Datasets/orl_faces original\s32\10.pgm,s32
-0,E:/Machine Learning/Datasets/orl_faces original\s32\2.pgm,s32
-0,E:/Machine Learning/Datasets/orl_faces original\s32\3.pgm,s32
-0,E:/Machine Learning/Datasets/orl_faces original\s32\4.pgm,s32
-0,E:/Machine Learning/Datasets/orl_faces original\s32\5.pgm,s32
-0,E:/Machine Learning/Datasets/orl_faces original\s32\6.pgm,s32
-0,E:/Machine Learning/Datasets/orl_faces original\s32\7.pgm,s32
-0,E:/Machine Learning/Datasets/orl_faces original\s32\8.pgm,s32
-0,E:/Machine Learning/Datasets/orl_faces original\s32\9.pgm,s32
-0,E:/Machine Learning/Datasets/orl_faces original\s33\1.pgm,s33
-0,E:/Machine Learning/Datasets/orl_faces original\s33\10.pgm,s33
-0,E:/Machine Learning/Datasets/orl_faces original\s33\2.pgm,s33
-0,E:/Machine Learning/Datasets/orl_faces original\s33\3.pgm,s33
-0,E:/Machine Learning/Datasets/orl_faces original\s33\4.pgm,s33
-0,E:/Machine Learning/Datasets/orl_faces original\s33\5.pgm,s33
-0,E:/Machine Learning/Datasets/orl_faces original\s33\6.pgm,s33
-0,E:/Machine Learning/Datasets/orl_faces original\s33\7.pgm,s33
-0,E:/Machine Learning/Datasets/orl_faces original\s33\8.pgm,s33
-0,E:/Machine Learning/Datasets/orl_faces original\s33\9.pgm,s33
-0,E:/Machine Learning/Datasets/orl_faces original\s34\1.pgm,s34
-0,E:/Machine Learning/Datasets/orl_faces original\s34\10.pgm,s34
-0,E:/Machine Learning/Datasets/orl_faces original\s34\2.pgm,s34
-0,E:/Machine Learning/Datasets/orl_faces original\s34\3.pgm,s34
-0,E:/Machine Learning/Datasets/orl_faces original\s34\4.pgm,s34
-0,E:/Machine Learning/Datasets/orl_faces original\s34\5.pgm,s34
-0,E:/Machine Learning/Datasets/orl_faces original\s34\6.pgm,s34
-0,E:/Machine Learning/Datasets/orl_faces original\s34\7.pgm,s34
-0,E:/Machine Learning/Datasets/orl_faces original\s34\8.pgm,s34
-0,E:/Machine Learning/Datasets/orl_faces original\s34\9.pgm,s34
-0,E:/Machine Learning/Datasets/orl_faces original\s35\1.pgm,s35
-0,E:/Machine Learning/Datasets/orl_faces original\s35\10.pgm,s35
-0,E:/Machine Learning/Datasets/orl_faces original\s35\2.pgm,s35
-0,E:/Machine Learning/Datasets/orl_faces original\s35\3.pgm,s35
-0,E:/Machine Learning/Datasets/orl_faces original\s35\4.pgm,s35
-0,E:/Machine Learning/Datasets/orl_faces original\s35\5.pgm,s35
-0,E:/Machine Learning/Datasets/orl_faces original\s35\6.pgm,s35
-0,E:/Machine Learning/Datasets/orl_faces original\s35\7.pgm,s35
-0,E:/Machine Learning/Datasets/orl_faces original\s35\8.pgm,s35
-0,E:/Machine Learning/Datasets/orl_faces original\s35\9.pgm,s35
-0,E:/Machine Learning/Datasets/orl_faces original\s36\1.pgm,s36
-0,E:/Machine Learning/Datasets/orl_faces original\s36\10.pgm,s36
-0,E:/Machine Learning/Datasets/orl_faces original\s36\2.pgm,s36
-0,E:/Machine Learning/Datasets/orl_faces original\s36\3.pgm,s36
-0,E:/Machine Learning/Datasets/orl_faces original\s36\4.pgm,s36
-0,E:/Machine Learning/Datasets/orl_faces original\s36\5.pgm,s36
-0,E:/Machine Learning/Datasets/orl_faces original\s36\6.pgm,s36
-0,E:/Machine Learning/Datasets/orl_faces original\s36\7.pgm,s36
-0,E:/Machine Learning/Datasets/orl_faces original\s36\8.pgm,s36
-0,E:/Machine Learning/Datasets/orl_faces original\s36\9.pgm,s36
-0,E:/Machine Learning/Datasets/orl_faces original\s37\1.pgm,s37
-0,E:/Machine Learning/Datasets/orl_faces original\s37\10.pgm,s37
-0,E:/Machine Learning/Datasets/orl_faces original\s37\2.pgm,s37
-0,E:/Machine Learning/Datasets/orl_faces original\s37\3.pgm,s37
-0,E:/Machine Learning/Datasets/orl_faces original\s37\4.pgm,s37
-0,E:/Machine Learning/Datasets/orl_faces original\s37\5.pgm,s37
-0,E:/Machine Learning/Datasets/orl_faces original\s37\6.pgm,s37
-0,E:/Machine Learning/Datasets/orl_faces original\s37\7.pgm,s37
-0,E:/Machine Learning/Datasets/orl_faces original\s37\8.pgm,s37
-0,E:/Machine Learning/Datasets/orl_faces original\s37\9.pgm,s37
-0,E:/Machine Learning/Datasets/orl_faces original\s38\1.pgm,s38
-0,E:/Machine Learning/Datasets/orl_faces original\s38\10.pgm,s38
-0,E:/Machine Learning/Datasets/orl_faces original\s38\2.pgm,s38
-0,E:/Machine Learning/Datasets/orl_faces original\s38\3.pgm,s38
-0,E:/Machine Learning/Datasets/orl_faces original\s38\4.pgm,s38
-0,E:/Machine Learning/Datasets/orl_faces original\s38\5.pgm,s38
-0,E:/Machine Learning/Datasets/orl_faces original\s38\6.pgm,s38
-0,E:/Machine Learning/Datasets/orl_faces original\s38\7.pgm,s38
-0,E:/Machine Learning/Datasets/orl_faces original\s38\8.pgm,s38
-0,E:/Machine Learning/Datasets/orl_faces original\s38\9.pgm,s38
-0,E:/Machine Learning/Datasets/orl_faces original\s39\1.pgm,s39
-0,E:/Machine Learning/Datasets/orl_faces original\s39\10.pgm,s39
-0,E:/Machine Learning/Datasets/orl_faces original\s39\2.pgm,s39
-0,E:/Machine Learning/Datasets/orl_faces original\s39\3.pgm,s39
-0,E:/Machine Learning/Datasets/orl_faces original\s39\4.pgm,s39
-0,E:/Machine Learning/Datasets/orl_faces original\s39\5.pgm,s39
-0,E:/Machine Learning/Datasets/orl_faces original\s39\6.pgm,s39
-0,E:/Machine Learning/Datasets/orl_faces original\s39\7.pgm,s39
-0,E:/Machine Learning/Datasets/orl_faces original\s39\8.pgm,s39
-0,E:/Machine Learning/Datasets/orl_faces original\s39\9.pgm,s39
-0,E:/Machine Learning/Datasets/orl_faces original\s4\1.pgm,s4
-0,E:/Machine Learning/Datasets/orl_faces original\s4\10.pgm,s4
-0,E:/Machine Learning/Datasets/orl_faces original\s4\2.pgm,s4
-0,E:/Machine Learning/Datasets/orl_faces original\s4\3.pgm,s4
-0,E:/Machine Learning/Datasets/orl_faces original\s4\4.pgm,s4
-0,E:/Machine Learning/Datasets/orl_faces original\s4\5.pgm,s4
-0,E:/Machine Learning/Datasets/orl_faces original\s4\6.pgm,s4
-0,E:/Machine Learning/Datasets/orl_faces original\s4\7.pgm,s4
-0,E:/Machine Learning/Datasets/orl_faces original\s4\8.pgm,s4
-0,E:/Machine Learning/Datasets/orl_faces original\s4\9.pgm,s4
-0,E:/Machine Learning/Datasets/orl_faces original\s40\1.pgm,s40
-0,E:/Machine Learning/Datasets/orl_faces original\s40\10.pgm,s40
-0,E:/Machine Learning/Datasets/orl_faces original\s40\2.pgm,s40
-0,E:/Machine Learning/Datasets/orl_faces original\s40\3.pgm,s40
-0,E:/Machine Learning/Datasets/orl_faces original\s40\4.pgm,s40
-0,E:/Machine Learning/Datasets/orl_faces original\s40\5.pgm,s40
-0,E:/Machine Learning/Datasets/orl_faces original\s40\6.pgm,s40
-0,E:/Machine Learning/Datasets/orl_faces original\s40\7.pgm,s40
-0,E:/Machine Learning/Datasets/orl_faces original\s40\8.pgm,s40
-0,E:/Machine Learning/Datasets/orl_faces original\s40\9.pgm,s40
-0,E:/Machine Learning/Datasets/orl_faces original\s5\1.pgm,s5
-0,E:/Machine Learning/Datasets/orl_faces original\s5\10.pgm,s5
-0,E:/Machine Learning/Datasets/orl_faces original\s5\2.pgm,s5
-0,E:/Machine Learning/Datasets/orl_faces original\s5\3.pgm,s5
-0,E:/Machine Learning/Datasets/orl_faces original\s5\4.pgm,s5
-0,E:/Machine Learning/Datasets/orl_faces original\s5\5.pgm,s5
-0,E:/Machine Learning/Datasets/orl_faces original\s5\6.pgm,s5
-0,E:/Machine Learning/Datasets/orl_faces original\s5\7.pgm,s5
-0,E:/Machine Learning/Datasets/orl_faces original\s5\8.pgm,s5
-0,E:/Machine Learning/Datasets/orl_faces original\s5\9.pgm,s5
-0,E:/Machine Learning/Datasets/orl_faces original\s6\1.pgm,s6
-0,E:/Machine Learning/Datasets/orl_faces original\s6\10.pgm,s6
-0,E:/Machine Learning/Datasets/orl_faces original\s6\2.pgm,s6
-0,E:/Machine Learning/Datasets/orl_faces original\s6\3.pgm,s6
-0,E:/Machine Learning/Datasets/orl_faces original\s6\4.pgm,s6
-0,E:/Machine Learning/Datasets/orl_faces original\s6\5.pgm,s6
-0,E:/Machine Learning/Datasets/orl_faces original\s6\6.pgm,s6
-0,E:/Machine Learning/Datasets/orl_faces original\s6\7.pgm,s6
-0,E:/Machine Learning/Datasets/orl_faces original\s6\8.pgm,s6
-0,E:/Machine Learning/Datasets/orl_faces original\s6\9.pgm,s6
-0,E:/Machine Learning/Datasets/orl_faces original\s7\1.pgm,s7
-0,E:/Machine Learning/Datasets/orl_faces original\s7\10.pgm,s7
-0,E:/Machine Learning/Datasets/orl_faces original\s7\2.pgm,s7
-0,E:/Machine Learning/Datasets/orl_faces original\s7\3.pgm,s7
-0,E:/Machine Learning/Datasets/orl_faces original\s7\4.pgm,s7
-0,E:/Machine Learning/Datasets/orl_faces original\s7\5.pgm,s7
-0,E:/Machine Learning/Datasets/orl_faces original\s7\6.pgm,s7
-0,E:/Machine Learning/Datasets/orl_faces original\s7\7.pgm,s7
-0,E:/Machine Learning/Datasets/orl_faces original\s7\8.pgm,s7
-0,E:/Machine Learning/Datasets/orl_faces original\s7\9.pgm,s7
-0,E:/Machine Learning/Datasets/orl_faces original\s8\1.pgm,s8
-0,E:/Machine Learning/Datasets/orl_faces original\s8\10.pgm,s8
-0,E:/Machine Learning/Datasets/orl_faces original\s8\2.pgm,s8
-0,E:/Machine Learning/Datasets/orl_faces original\s8\3.pgm,s8
-0,E:/Machine Learning/Datasets/orl_faces original\s8\4.pgm,s8
-0,E:/Machine Learning/Datasets/orl_faces original\s8\5.pgm,s8
-0,E:/Machine Learning/Datasets/orl_faces original\s8\6.pgm,s8
-0,E:/Machine Learning/Datasets/orl_faces original\s8\7.pgm,s8
-0,E:/Machine Learning/Datasets/orl_faces original\s8\8.pgm,s8
-0,E:/Machine Learning/Datasets/orl_faces original\s8\9.pgm,s8
-0,E:/Machine Learning/Datasets/orl_faces original\s9\1.pgm,s9
-0,E:/Machine Learning/Datasets/orl_faces original\s9\10.pgm,s9
-0,E:/Machine Learning/Datasets/orl_faces original\s9\2.pgm,s9
-0,E:/Machine Learning/Datasets/orl_faces original\s9\3.pgm,s9
-0,E:/Machine Learning/Datasets/orl_faces original\s9\4.pgm,s9
-0,E:/Machine Learning/Datasets/orl_faces original\s9\5.pgm,s9
-0,E:/Machine Learning/Datasets/orl_faces original\s9\6.pgm,s9
-0,E:/Machine Learning/Datasets/orl_faces original\s9\7.pgm,s9
-0,E:/Machine Learning/Datasets/orl_faces original\s9\8.pgm,s9
-0,E:/Machine Learning/Datasets/orl_faces original\s9\9.pgm,s9
+,0,1
+0,E:/Machine Learning/Datasets/bct\Krimesh\user1.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user10.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user100.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user11.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user12.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user13.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user14.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user15.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user16.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user17.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user18.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user19.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user2.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user20.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user21.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user22.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user23.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user24.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user25.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user26.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user27.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user28.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user29.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user3.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user30.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user31.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user32.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user33.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user34.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user35.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user36.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user37.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user38.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user39.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user4.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user40.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user41.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user42.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user43.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user44.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user45.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user46.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user47.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user48.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user49.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user5.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user50.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user51.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user52.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user53.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user54.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user55.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user56.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user57.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user58.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user59.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user6.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user60.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user61.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user62.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user63.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user64.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user65.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user66.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user67.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user68.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user69.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user7.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user70.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user71.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user72.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user73.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user74.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user75.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user76.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user77.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user78.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user79.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user8.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user80.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user81.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user82.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user83.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user84.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user85.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user86.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user87.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user88.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user89.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user90.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user91.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user92.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user93.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user94.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user95.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user96.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user97.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user98.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Krimesh\user99.jpg,Krimesh
+0,E:/Machine Learning/Datasets/bct\Neema\user1.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user10.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user100.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user11.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user12.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user13.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user14.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user15.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user16.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user17.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user18.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user19.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user2.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user20.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user21.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user22.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user23.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user24.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user25.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user26.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user27.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user28.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user29.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user3.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user30.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user31.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user32.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user33.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user34.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user35.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user36.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user37.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user38.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user39.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user4.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user40.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user41.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user42.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user43.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user44.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user45.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user46.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user47.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user48.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user49.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user5.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user50.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user51.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user52.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user53.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user54.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user55.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user56.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user57.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user58.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user59.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user6.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user60.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user61.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user62.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user63.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user64.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user65.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user66.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user67.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user68.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user69.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user7.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user70.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user71.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user72.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user73.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user74.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user75.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user76.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user77.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user78.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user79.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user8.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user80.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user81.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user82.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user83.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user84.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user85.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user86.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user87.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user88.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user89.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user9.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user90.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user91.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user92.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user93.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user94.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user95.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user96.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user97.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user98.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Neema\user99.jpg,Neema
+0,E:/Machine Learning/Datasets/bct\Pragya\user1.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user10.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user100.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user11.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user12.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user13.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user14.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user15.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user16.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user17.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user18.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user19.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user2.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user20.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user21.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user22.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user23.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user24.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user25.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user26.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user27.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user28.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user29.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user3.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user30.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user31.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user32.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user33.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user34.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user35.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user36.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user37.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user38.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user39.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user4.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user40.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user41.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user42.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user43.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user44.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user45.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user46.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user47.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user48.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user49.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user5.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user50.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user51.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user52.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user53.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user54.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user55.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user56.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user57.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user58.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user59.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user6.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user60.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user61.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user62.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user63.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user64.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user65.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user66.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user67.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user68.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user69.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user7.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user70.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user71.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user72.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user73.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user74.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user75.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user76.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user77.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user78.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user79.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user8.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user80.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user81.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user82.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user83.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user84.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user85.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user86.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user87.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user88.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user89.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user9.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user90.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user91.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user92.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user93.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user94.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user95.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user96.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user97.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Pragya\user98.jpg,Pragya
+0,E:/Machine Learning/Datasets/bct\Prajwal\user1.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user10.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user100.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user11.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user12.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user13.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user14.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user15.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user16.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user17.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user18.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user19.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user2.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user20.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user21.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user22.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user23.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user24.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user25.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user26.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user27.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user28.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user29.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user3.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user30.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user31.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user32.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user33.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user34.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user35.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user36.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user37.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user38.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user39.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user4.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user40.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user41.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user42.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user43.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user44.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user45.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user46.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user47.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user48.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user49.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user5.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user50.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user51.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user52.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user53.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user54.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user55.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user56.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user57.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user58.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user59.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user6.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user60.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user61.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user62.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user63.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user64.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user65.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user66.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user67.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user68.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user69.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user7.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user70.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user71.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user72.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user73.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user74.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user75.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user76.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user77.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user78.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user79.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user8.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user80.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user81.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user82.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user83.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user84.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user85.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user86.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user87.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user88.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user89.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user9.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user90.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user91.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user92.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user93.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user94.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user95.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user96.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user97.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user98.jpg,Prajwal
+0,E:/Machine Learning/Datasets/bct\Prajwal\user99.jpg,Prajwal

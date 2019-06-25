@@ -16,7 +16,7 @@ class EigenFace:
     The PCA based algorithm for face recognition
     """ 
     
-    def __init__(self, image_x, image_y, root_dir=""):
+    def __init__(self, image_x=200, image_y=200, root_dir=""):
         """
         Creates an instance of EigenFace class
         
@@ -196,6 +196,61 @@ class EigenFace:
             self.trainModel(X,y,num_of_eigen)
         elif mode=='load':
             self.loadModel()
+
+    def image_predict(self,test_img,threshold=3e14,n_neighbors=1):
+        """
+        Makes prediction for single image.
+
+        Parameters
+        --------
+            img : list, ndarray
+                test image array
+            
+
+            threshold : float, default=3e14
+                Defines the threshold beyond which the prediction will be discarded
+
+            n_neighbors : integer, default=1
+                Defines the number of neighbors to consider during prediction. 
+                Uses KNN algorithm for n>1. 
+
+        Note
+        --------
+            Use n_neighbors only when there are a lot of images of a single user
+            in the training set.
+        """
+
+#        test_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        test_img.resize(1, self.image_x*self.image_y)
+        adjusted_face = test_img - self.avg_face
+        test_weight = np.dot(self.eigen_vector.T, adjusted_face.T)
+        diff_weight = self.weights - test_weight
+        sum_of_squared_errors = np.sum(diff_weight*diff_weight, axis=0)
+
+        if n_neighbors==1:
+            name = self.y_train[np.argmin(sum_of_squared_errors)]
+            potential_match = None
+          
+        else:
+            tmp_df = pd.DataFrame()
+            tmp_df['name'] = self.y_train[list(range(len(sum_of_squared_errors)))]
+            tmp_df['sse'] = sum_of_squared_errors
+            tmp_df.sort_values(by='sse', inplace=True)
+            tmp_df.iloc[:,:n_neighbors]
+            tmp_df.groupby('name_index').count()
+            
+            name = tmp_df.iloc[0,0]
+            #return atmost 3 potential id if the first one doesn't match
+            potential_match = tmp_df.iloc[0,:3]
+          
+        print('sse: ', min(sum_of_squared_errors))
+        y_pred = name
+#        if min(sum_of_squared_errors)<threshold:
+#            y_pred = name
+#        else:
+#            y_pred = 'nan'
+
+        return y_pred
 
     def predict(self,X,y,threshold=3e14,n_neighbors=1):
         """
