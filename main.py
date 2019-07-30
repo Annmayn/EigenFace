@@ -1,3 +1,7 @@
+"""
+For model training, testing and validation
+"""
+
 from face_recognition import EigenFace
 #############3
 #import pandas as pd
