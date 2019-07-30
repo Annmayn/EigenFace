@@ -243,7 +243,7 @@ class EigenFace:
             #return atmost 3 potential id if the first one doesn't match
             potential_match = tmp_df.iloc[0,:3]
           
-        print('sse: ', min(sum_of_squared_errors))
+        # print('sse: ', min(sum_of_squared_errors))
         y_pred = name
 #        if min(sum_of_squared_errors)<threshold:
 #            y_pred = name
