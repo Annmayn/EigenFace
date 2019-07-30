@@ -31,14 +31,22 @@ predictedNames = {}
 t1 = time.time()
 t2 = time.time()
 runtime = 5
+
+#Create missing directories
+if not os.path.exists("tmp"):
+    os.makedirs("tmp")
+if not os.path.exists("tmp/"+attendance_date):
+    os.makedirs("tmp/"+attendance_date)
+    
 while t2-t1 < runtime:
     ret, frame = cap.read()
     image, face = face_detector(frame)
 
     if len(face)!=0:
         y_pred = model.image_predict(face)
-        print(t2-t1)
         
+        if not os.path.exists("tmp/"+attendance_date+"/"+y_pred):
+            os.makedirs("tmp/"+attendance_date+"/"+y_pred)
         #set to 1 if not already present otherwise increase count
         try:
             predictedNames[y_pred]+=1
@@ -46,14 +54,10 @@ while t2-t1 < runtime:
             predictedNames[y_pred]=1
 
         path_to_image = os.path.join('tmp',attendance_date,y_pred,datetime.datetime.now().strftime("%H-%M-%S-%f")+'.png')
+        print(t2-t1)
         print(path_to_image)
-        if not os.path.exists("tmp"):
-            os.makedirs("tmp")
-        if not os.path.exists("tmp/"+attendance_date):
-            os.makedirs("tmp/"+attendance_date)
-        if not os.path.exists("tmp/"+attendance_date+"/"+y_pred):
-            os.makedirs("tmp/"+attendance_date+"/"+y_pred)
-        cv2.imwrite(path_to_image, image)
+        if predictedNames[y_pred]<=10:
+            cv2.imwrite(path_to_image, image)
         
     if cv2.waitKey(1)==27:
         break
@@ -76,6 +80,7 @@ save_root = join(load_root, "json")
 for num,dirr in enumerate(listdir(join(load_root, attendance_date))):
     user_json = {}
     user_json['name'] = dirr
+    user_json['status'] = 'P'
     
     tmp_dict = {}
     data_path = join(load_root, attendance_date, dirr)
