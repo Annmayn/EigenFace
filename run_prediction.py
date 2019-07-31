@@ -4,6 +4,7 @@ import datetime
 import time
 import json
 import os
+import sys
 from os import listdir
 from os.path import join, isfile, exists
 face_classifier = cv2.CascadeClassifier("etc/haarcascade_frontalface_default.xml")
@@ -30,7 +31,9 @@ attendance_date = datetime.datetime.now().strftime("%Y-%m-%d")
 predictedNames = {}
 t1 = time.time()
 t2 = time.time()
-runtime = 5
+
+#runtime value from console
+runtime = int(sys.argv[1])
 
 #Create missing directories
 if not os.path.exists("tmp"):
