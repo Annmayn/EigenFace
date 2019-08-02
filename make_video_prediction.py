@@ -8,18 +8,22 @@ import sys
 from os import listdir
 from os.path import join, isfile, exists
 face_classifier = cv2.CascadeClassifier("etc/haarcascade_frontalface_default.xml")
-#Video_filename = "attendance_video.avi"
+Video_filename = "attendance_video.avi"
 
 def face_detector(img):
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    try:
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        
+    except:
+        gray = img
+        print("some error")
     faces = face_classifier.detectMultiScale(gray,1.3,5)
-    
     if faces is():
         return img, []
     
     return gray, faces
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(Video_filename)
 model = EigenFace()
 model.loadModel()
 
@@ -30,7 +34,7 @@ t1 = time.time()
 t2 = time.time()
 
 #runtime value from console
-runtime = int(sys.argv[1])
+#runtime = int(sys.argv[1])
 
 #Create missing directories
 if not os.path.exists("tmp"):
@@ -38,7 +42,7 @@ if not os.path.exists("tmp"):
 if not os.path.exists("tmp/"+attendance_date):
     os.makedirs("tmp/"+attendance_date)
     
-while t2-t1<runtime:
+while cap.isOpened():
     ret, frame = cap.read()
     if ret == True:
         gray, faces = face_detector(frame)
@@ -68,7 +72,7 @@ while t2-t1<runtime:
     else:
         break
 
-    t2 = time.time()
+#    t2 = time.time()
 # with open('attendance.json', 'w+') as f:
     # f.write(str(saveFile))
 cap.release()
