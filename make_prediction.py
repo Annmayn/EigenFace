@@ -52,6 +52,7 @@ while t2-t1<runtime:
             for (x,y,w,h) in faces:
                 face_save =  gray[y:y+h, x:x+w]
                 face = cv2.resize(face_save,(200,200))
+                face_save = cv2.GaussianBlur(face_save, (5,5), 0)
                 if len(face)!=0:
                     y_pred = model.image_predict(face, threshold=thd_value)
                     

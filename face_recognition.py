@@ -135,6 +135,7 @@ class EigenFace:
         for i, image_path in enumerate(X):
             image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
             image.resize(1,self.image_x * self.image_y)
+            image = cv2.GaussianBlur(image, (5,5), 0)
             all_image[i,:] = image/255
 
             #Calculate average face
@@ -221,6 +222,7 @@ class EigenFace:
         """
 
 #        test_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        test_img = cv2.GaussianBlur(test_img, (5,5), 0)
         test_img.resize(1, self.image_x*self.image_y)
         test_img = test_img/255
         adjusted_face = test_img - self.avg_face
