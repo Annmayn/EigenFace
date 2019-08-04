@@ -1,7 +1,7 @@
 from face_recognition import EigenFace
 import sys
 
-datasetPath = "E:/Machine Learning/Datasets/bct"
+datasetPath = "E:/Machine Learning/Datasets/images"
 img_x = 200
 img_y = 200
 
