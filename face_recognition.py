@@ -250,7 +250,8 @@ class EigenFace:
 #            y_pred = name
 #        else:
 #            y_pred = 'nan'
-        print(y_pred,'\n', min(sum_of_squared_errors))
+
+        # print(y_pred,'\n', min(sum_of_squared_errors))
 
         #return name if it's sse is less than threshold
         if (min(sum_of_squared_errors) < threshold):
