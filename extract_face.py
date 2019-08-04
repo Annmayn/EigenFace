@@ -5,7 +5,7 @@ from os.path import join, isfile
 import os
 
 root_path = "E:/Machine Learning/Datasets/"
-dataset_name = "bct1/"
+dataset_name = "images/"
 dataset_path = root_path+dataset_name
 face_classifier = cv2.CascadeClassifier("etc/haarcascade_frontalface_default.xml")
 
