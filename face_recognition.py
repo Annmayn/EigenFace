@@ -135,7 +135,7 @@ class EigenFace:
         for i, image_path in enumerate(X):
             image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
             image.resize(1,self.image_x * self.image_y)
-            all_image[i,:] = image
+            all_image[i,:] = image/255
 
             #Calculate average face
             self.avg_face = all_image.sum(axis=0)/all_image.shape[0]
@@ -222,6 +222,7 @@ class EigenFace:
 
 #        test_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         test_img.resize(1, self.image_x*self.image_y)
+        test_img = test_img/255
         adjusted_face = test_img - self.avg_face
         test_weight = np.dot(self.eigen_vector.T, adjusted_face.T)
         diff_weight = self.weights - test_weight
@@ -249,8 +250,13 @@ class EigenFace:
 #            y_pred = name
 #        else:
 #            y_pred = 'nan'
+        print(y_pred,'\n', min(sum_of_squared_errors))
 
-        return y_pred
+        #return name if it's sse is less than threshold
+        if (min(sum_of_squared_errors) < threshold):
+            return y_pred
+        else:
+            return None
 
     def predict(self,X,y,threshold=3e14,n_neighbors=1):
         """
