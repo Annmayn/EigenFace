@@ -46,6 +46,8 @@ Example
         |- image_1
         |- image_n
 
+The program will give better output if the image is cropped to include only the face and is in gray version. The program *extract_faces.py* has been written as a sample for this and can be used by changing the directory location within the code. It replaces images with their faces (using HaarCascade) and deletes ones where no faces are found. This has to be manually verified, however, because of the inconsistency of the face detection code.
+
 ```
 A sample code for training and saving a model can be found in *train_model.py*, and a sample code for recognition can be found in *make_prediction.py*.
 
