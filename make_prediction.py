@@ -32,6 +32,11 @@ t2 = time.time()
 #runtime value from console
 runtime = int(sys.argv[1])
 
+#Threshold value for image prediction
+#lower => more accurate but rejects more image 
+#higher => less accurate but recognizes more image
+thd_value = 1500000
+
 #Create missing directories
 if not os.path.exists("tmp"):
     os.makedirs("tmp")
@@ -45,10 +50,14 @@ while t2-t1<runtime:
 
         if len(faces)!=0:
             for (x,y,w,h) in faces:
-                face =  gray[y:y+h, x:x+w]
-                face = cv2.resize(face,(200,200))
+                face_save =  gray[y:y+h, x:x+w]
+                face = cv2.resize(face_save,(200,200))
                 if len(face)!=0:
-                    y_pred = model.image_predict(face)
+                    y_pred = model.image_predict(face, threshold=thd_value)
+                    
+                    #skip if no name is returned
+                    if y_pred is None:
+                        continue
 
                     if not os.path.exists("tmp/"+attendance_date+"/"+y_pred):
                         os.makedirs("tmp/"+attendance_date+"/"+y_pred)
@@ -61,7 +70,7 @@ while t2-t1<runtime:
                     print(t2-t1)
                     print(path_to_image)
                     if predictedNames[y_pred]<=10:
-                        cv2.imwrite(path_to_image,frame)
+                        cv2.imwrite(path_to_image,face_save)
             
         if cv2.waitKey(1)==27:
             break
