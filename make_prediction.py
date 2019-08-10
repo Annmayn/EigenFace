@@ -10,9 +10,17 @@ from os.path import join, isfile, exists
 face_classifier = cv2.CascadeClassifier("etc/haarcascade_frontalface_default.xml")
 #Video_filename = "attendance_video.avi"
 
+#runtime value from console
+runtime = int(sys.argv[1])
+
+#Threshold value for image prediction
+#lower => more accurate but rejects more image 
+#higher => less accurate but recognizes more image
+thd_value = 1400000
+
 def face_detector(img):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    faces = face_classifier.detectMultiScale(gray,1.3,5)
+    faces = face_classifier.detectMultiScale(gray,scaleFactor=1.2, minNeighbors=5, minSize=(20,20))
     
     if faces is():
         return img, []
@@ -29,13 +37,6 @@ predictedNames = {}
 t1 = time.time()
 t2 = time.time()
 
-#runtime value from console
-runtime = int(sys.argv[1])
-
-#Threshold value for image prediction
-#lower => more accurate but rejects more image 
-#higher => less accurate but recognizes more image
-thd_value = 1500000
 
 #Create missing directories
 if not os.path.exists("tmp"):
@@ -52,9 +53,9 @@ while t2-t1<runtime:
             for (x,y,w,h) in faces:
                 face_save =  gray[y:y+h, x:x+w]
                 face = cv2.resize(face_save,(200,200))
-                face_save = cv2.GaussianBlur(face_save, (5,5), 0)
+                # face_save = cv2.GaussianBlur(face_save, (5,5), 0)
                 if len(face)!=0:
-                    y_pred = model.image_predict(face, threshold=thd_value)
+                    y_pred,comp = model.image_predict(face, threshold=thd_value)
                     
                     #skip if no name is returned
                     if y_pred is None:
@@ -67,11 +68,12 @@ while t2-t1<runtime:
                         predictedNames[y_pred]+=1
                     except:
                         predictedNames[y_pred]=1
-                    path_to_image = os.path.join('tmp',attendance_date,y_pred,datetime.datetime.now().strftime("%H-%M-%S-%f")+'.png')
-                    print(t2-t1)
-                    print(path_to_image)
-                    if predictedNames[y_pred]<=10:
+                    path_to_image = join('tmp',attendance_date,y_pred,datetime.datetime.now().strftime("%H-%M-%S-%f")+'.png')
+                    
+                    # print(path_to_image)
+                    if predictedNames[y_pred]<=10 or True:
                         cv2.imwrite(path_to_image,face_save)
+                        # cv2.imwrite(join('tmp',attendance_date,y_pred,datetime.datetime.now().strftime("%H-%M-%S-%f")+'prediction.png'), cv2.imread(comp))
             
         if cv2.waitKey(1)==27:
             break

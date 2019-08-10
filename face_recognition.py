@@ -42,11 +42,13 @@ class EigenFace:
         self.eigen_vector_path = os.path.join(root_dir, 'etc', 'eigen_vector.txt')
         self.average_face_path = os.path.join(root_dir, 'etc', 'average_face.txt')
         self.train_model_output_path = os.path.join(root_dir, 'etc', 'y_train.txt')
+        self.x_train_path = os.path.join(root_dir, 'etc', 'x_train.txt')
 
         self.eigen_vector = None 
         self.y_train = None
         self.avg_face = None
         self.weights = None
+        self.x_train = None #for analysis purpose only
 
 
     def generateLabels(self, dataset_path):
@@ -129,13 +131,14 @@ class EigenFace:
                 Number of eigen vectors to use when building model.
         """
         
+        self.x_train = X
         self.y_train = y
         all_image = np.zeros((X.shape[0], self.image_x*self.image_y))
 
         for i, image_path in enumerate(X):
             image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
             image.resize(1,self.image_x * self.image_y)
-            image = cv2.GaussianBlur(image, (5,5), 0)
+            # image = cv2.GaussianBlur(image, (5,5), 0)
             all_image[i,:] = image/255
 
             #Calculate average face
@@ -178,7 +181,8 @@ class EigenFace:
         joblib.dump(self.eigen_vector, self.eigen_vector_path)
         joblib.dump(self.avg_face, self.average_face_path)
         joblib.dump(self.weights, self.trained_weight_path)
-        joblib.dump(self.y_train, self.train_model_output_path)  
+        joblib.dump(self.y_train, self.train_model_output_path)
+        joblib.dump(self.x_train, self.x_train_path)  
         with open(self.label_csv_path, "w+") as f:
             f.write(label_df.to_csv())
 
@@ -191,6 +195,7 @@ class EigenFace:
         self.avg_face = joblib.load(self.average_face_path)
         self.weights = joblib.load(self.trained_weight_path)
         self.y_train = joblib.load(self.train_model_output_path)
+        self.x_train = joblib.load(self.x_train_path)
 
     def fit(self,X,y,mode='train',num_of_eigen=20):
         if mode=='train':
@@ -222,7 +227,7 @@ class EigenFace:
         """
 
 #        test_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-        test_img = cv2.GaussianBlur(test_img, (5,5), 0)
+        # test_img = cv2.GaussianBlur(test_img, (5,5), 0)
         test_img.resize(1, self.image_x*self.image_y)
         test_img = test_img/255
         adjusted_face = test_img - self.avg_face
@@ -232,17 +237,20 @@ class EigenFace:
 
         if n_neighbors==1:
             name = self.y_train[np.argmin(sum_of_squared_errors)]
+            comp = self.x_train[np.argmin(sum_of_squared_errors)]
             potential_match = None
           
         else:
             tmp_df = pd.DataFrame()
             tmp_df['name'] = self.y_train[list(range(len(sum_of_squared_errors)))]
+            tmp_df['comp'] = self.x_train[list(range(len(sum_of_squared_errors)))]
             tmp_df['sse'] = sum_of_squared_errors
             tmp_df.sort_values(by='sse', inplace=True)
             tmp_df.iloc[:,:n_neighbors]
             tmp_df.groupby('name_index').count()
             
             name = tmp_df.iloc[0,0]
+            comp = tmp_df.iloc[0,1]
             #return atmost 3 potential id if the first one doesn't match
             potential_match = tmp_df.iloc[0,:3]
           
@@ -257,9 +265,10 @@ class EigenFace:
 
         #return name if it's sse is less than threshold
         if (min(sum_of_squared_errors) < threshold):
-            return y_pred
+            print(y_pred, ":\t", min(sum_of_squared_errors))
+            return y_pred, comp
         else:
-            return None
+            return None, None
 
     def predict(self,X,y,threshold=3e14,n_neighbors=1):
         """
