@@ -8,16 +8,14 @@ import sys
 from os import listdir
 from os.path import join, isfile, exists
 face_classifier = cv2.CascadeClassifier("etc/haarcascade_frontalface_default.xml")
-Video_filename = "attendance_video.avi"
+Video_filename = "E:/7th semester/MAJOR PROJECT/attendance_trimmed.mov"
+
+thd_value = 150000
 
 def face_detector(img):
-    try:
-        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-        
-    except:
-        gray = img
-        print("some error")
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = face_classifier.detectMultiScale(gray,1.3,5)
+    
     if faces is():
         return img, []
     
@@ -42,6 +40,8 @@ if not os.path.exists("tmp"):
 if not os.path.exists("tmp/"+attendance_date):
     os.makedirs("tmp/"+attendance_date)
     
+it = 0
+
 while cap.isOpened():
     ret, frame = cap.read()
     if ret == True:
@@ -49,23 +49,39 @@ while cap.isOpened():
 
         if len(faces)!=0:
             for (x,y,w,h) in faces:
-                face =  gray[y:y+h, x:x+w]
-                face = cv2.resize(face,(200,200))
+                face_save =  gray[y:y+h, x:x+w]
+                face = cv2.resize(face_save,(200,200))
+                
                 if len(face)!=0:
-                    y_pred = model.image_predict(face)
+                    cv2.rectangle(frame, (x,y),(x+w,y+h),(0,0,255),2)
+                    it+=1
+                    # p_t_m = join('tmp', 'tmp', str(it)+'.png')
+                    # cv2.imwrite(p_t_m, face)
+                    y_pred, comp = model.image_predict(face, threshold=thd_value)
 
-                    if not os.path.exists("tmp/"+attendance_date+"/"+y_pred):
-                        os.makedirs("tmp/"+attendance_date+"/"+y_pred)
-                    #set to 1 if not already present otherwise increase count
-                    try:
-                        predictedNames[y_pred]+=1
-                    except:
-                        predictedNames[y_pred]=1
-                    path_to_image = os.path.join('tmp',attendance_date,y_pred,datetime.datetime.now().strftime("%H-%M-%S-%f")+'.png')
-                    print(t2-t1)
-                    print(path_to_image)
-                    if predictedNames[y_pred]<=10:
-                        cv2.imwrite(path_to_image,frame)
+                    
+                    if y_pred is None:
+                        cv2.imshow("Demo", frame)
+
+                    else:
+                        if not os.path.exists(join("tmp", attendance_date, y_pred+"_video")):
+                            os.makedirs(join("tmp", attendance_date, y_pred+"_video"))
+                        #set to 1 if not already present otherwise increase count
+                        try:
+                            predictedNames[y_pred]+=1
+                        except:
+                            predictedNames[y_pred]=1
+
+                        path_to_image = os.path.join('tmp',attendance_date,y_pred+"_video",datetime.datetime.now().strftime("%H-%M-%S-%f")+'.png')
+                        print(path_to_image)
+
+                        if predictedNames[y_pred]<=10 or True:
+                            cv2.imwrite(path_to_image,face_save)
+                            
+                            cv2.putText(frame, y_pred, (x,y), cv2.FONT_HERSHEY_TRIPLEX, 1, (255,255,255))
+                            cv2.imshow("Demo", frame)
+        else:
+            cv2.imshow("Demo", frame)
             
         if cv2.waitKey(1)==27:
             break
